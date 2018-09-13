@@ -12,14 +12,18 @@ body, html {
     border-color: silver;
 }
 
+.navbar-nav ul li a{
+  color: black;
+}
+
 #myNavbar{
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .hero-image {
-  margin-top:85px;
-  background-image: url("https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2017/01/18165859/twenty20_2c31db48-c4c9-461d-8492-5f99516a493f.jpg");
+  margin-top:10px;
+  background-image: url("https://leelandonline.com/wp-content/uploads/2016/06/main-hero-image-1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +55,9 @@ body, html {
     color: white;
 }
 
-
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+}
 
 
 @media only screen and (max-width: 765px) {
