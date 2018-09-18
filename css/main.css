@@ -1,29 +1,47 @@
 /* GLOBAL */
 body, html {
-    height: 100%;
-    margin: 0;
-    overflow-x:hidden;
+  height: 100%;
+  margin: 0;
+  overflow-x:hidden;
+}
+
+.englishBtn{
+  display: none;
+}
+
+.spanishVersion{
+  display: none;
 }
 
 .navbar {
-    border-radius: 0px;
-    margin-bottom: 0px;
-    background-color: white;
-    border-color: silver;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  border-color: silver;
 }
 
 .navbar-nav ul li a{
   color: black;
 }
 
+.navbar-header{
+  height: 95px;
+}
+
 #myNavbar{
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
+}
+
+.navbar-toggle{
+  background-color: #333;
+  margin-top: 30px;
+  margin-right: 25px;
 }
 
 .hero-image {
   margin-top:10px;
-  background-image: url("https://leelandonline.com/wp-content/uploads/2016/06/main-hero-image-1.jpg");
+  background-image: url("https://assets.vogue.com/photos/59de6bb2b471172bdfafc338/master/pass/03-j-balvin.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,19 +70,45 @@ body, html {
 }
 
 .navbar-inverse .navbar-brand {
-    color: white;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a {
   color: black;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.spanishBtn, .englishBtn{
+  margin-right:10px;
+  margin-top:5px;
 }
 
 
+
 @media only screen and (max-width: 765px) {
+  .spanishBtn, .englishBtn {
+    display: block;
+    width: 90px;
+    margin: 15px auto;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    text-align: center;
+  }
+
   .hero-image {
     height: 75%;
   }
+
   .hero-text {
     top: 30%;
   }
+
 }
