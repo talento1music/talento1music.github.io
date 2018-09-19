@@ -39,6 +39,10 @@ body, html {
   margin-right: 25px;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
 .hero-image {
   margin-top:10px;
   background-image: url("https://assets.vogue.com/photos/59de6bb2b471172bdfafc338/master/pass/03-j-balvin.jpg");
