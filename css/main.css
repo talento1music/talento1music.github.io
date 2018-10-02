@@ -5,6 +5,11 @@ body, html {
   overflow-x:hidden;
 }
 
+.prettyFont{
+  /*font: normal normal normal 28px/1.4em proxima-n-w01-reg,sans-serif;*/
+  line-height: normal;
+}
+
 .englishBtn{
   display: none;
 }
@@ -17,7 +22,7 @@ body, html {
   border-radius: 0px;
   margin-bottom: 0px;
   background-color: white;
-  border-color: silver;
+  border-color: white;
 }
 
 .navbar-nav ul li a{
@@ -93,6 +98,35 @@ body, html {
   margin-top:5px;
 }
 
+.whoAreWe{
+  padding: 200px 0px 200px 0px;
+  margin-top: 0px;
+  width: 100%;
+  height:auto;
+  background-color: white;
+  border:1px solid white;
+}
+
+.whatWeDo{
+  padding: 200px 0px 200px 0px;
+  margin-top: 0px;
+  width: 100%;
+  height:auto;
+  background-color: #F5F5F5;
+  border:1px solid white;
+}
+
+.itemsDiv {
+  font-weight: bold;
+  padding:50px 20px 50px 20px;
+  background-color: white;
+  max-width: 250px;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
 
 
 @media only screen and (max-width: 765px) {
