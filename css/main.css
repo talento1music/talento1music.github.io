@@ -76,7 +76,7 @@ footer{
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-  border-color: white;
+  /*border-color: white;*/
 }
 
 .hero-image {
@@ -123,9 +123,9 @@ footer{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
-  color: black;
-  font-weight: bold;
-  border-bottom: 2px solid black;
+  /*color: black;*/
+  /*font-weight: bold;*/
+  /*border-bottom: 2px solid black;*/
 }
 
 .spanishBtn, .englishBtn{
@@ -192,6 +192,18 @@ footer{
 
 
 @media only screen and (max-width: 765px) {
+  #siteLogo{
+    width:35px !important;
+  }
+  .column{
+    width:100% !important;
+  }
+  video{
+    width:unset !important;
+  }
+  .navbar-header{
+    height: 70px;
+  }
   .liTranslateBtns{
     text-align: center;
   }
