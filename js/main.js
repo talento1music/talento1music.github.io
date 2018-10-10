@@ -17,5 +17,10 @@ $(".englishBtn").click(function(){
     $(".spanishVersion").hide();
 });
 
+$('#newsBtn').click(function (){
+    $('html, body').animate({
+        scrollTop: $("div.news").offset().top
+    }, 2000)
+});
 
 });
