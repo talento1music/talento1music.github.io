@@ -274,7 +274,11 @@ transition: transform 0.4s;
   width: 25%;
   height: 300px; /* Should be removed. Only for demonstration */
   padding: 20px 30px 20px 30px;
-  }
+}
+
+.columnTalents:hover .talentInfo{
+  font-weight: 400;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -289,6 +293,16 @@ clear: both;
   width: 130px;
   padding: 9px;
 }
+
+.talentInfo{
+  background-color: rgba(0,0,0,0.3);
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
 
 
 @media only screen and (max-width: 765px) {
