@@ -92,6 +92,17 @@ footer{
   position: relative;
 }
 
+.talentsHero {
+  overflow: hidden;
+  background-image: url("https://primarywave.com/wp-content/uploads/2016/06/PW_Homepage_V3_alt-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+  border-bottom: 5px solid white;
+}
+
 .hero-text {
   overflow: hidden;
   text-align: center;
@@ -161,6 +172,16 @@ footer{
   height:auto;
   background-color: white;
   border:1px solid ;
+  overflow: hidden;
+}
+
+.talents{
+  padding: 0px 0px 0px 0px;
+  margin-top: 0px;
+  width: 100%;
+  height:auto;
+  background-color: white;
+  border:1px solid transparent;
   overflow: hidden;
 }
 
@@ -241,6 +262,20 @@ transform: scale(1, 1);
 transition: transform 0.4s;
 }
 
+.columnTalents {
+  border: 5px solid white;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 20px 30px 20px 30px;
+  }
+
 /* Clear floats after the columns */
 .row:after {
 content: "";
@@ -289,6 +324,10 @@ clear: both;
 
   .hero-image {
     height: 100%;
+  }
+
+  .columnTalents {
+    width: 100%;
   }
 
   .hero-text {
