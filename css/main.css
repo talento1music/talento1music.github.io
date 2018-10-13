@@ -103,6 +103,17 @@ footer{
   border-bottom: 5px solid white;
 }
 
+.talentPageHero {
+  background-color: black;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 550px;
+  border-bottom: 1px solid transparent;
+}
+
 .hero-text {
   overflow: hidden;
   text-align: center;
@@ -237,6 +248,15 @@ footer{
   padding: 0px 20px 0px 20px;
 }
 
+.talentPageBanner{
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -303,6 +323,18 @@ clear: both;
   margin-top: 200px;
 }
 
+
+@media only screen and (max-width: 992px) {
+  .column{
+    width: 50%;
+  }
+
+  .columnTalents{
+    width: 50%;
+  }
+
+
+}
 
 
 @media only screen and (max-width: 765px) {
