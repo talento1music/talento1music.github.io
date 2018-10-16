@@ -395,4 +395,8 @@ clear: both;
     top: 30%;
   }
 
+  .news_text{
+    padding:0px 20px 0px 20px;
+  }
+
 }
