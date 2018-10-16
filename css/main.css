@@ -103,6 +103,20 @@ footer{
   border-bottom: 5px solid white;
 }
 
+.newsHero {
+  overflow: hidden;
+  background-image: url("https://primarywave.com/wp-content/uploads/2016/06/PW_Homepage_V3_alt-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+  border-bottom: 1px solid black;
+  color: white;
+  text-align: center;
+  padding:150px 30px 150px 30px;
+}
+
 .talentPageHero {
   background-color: black;
   overflow: hidden;
@@ -280,6 +294,7 @@ height: 300px; /* Should be removed. Only for demonstration */
 padding: 20px 30px 20px 30px;
 transform: scale(1, 1);
 transition: transform 0.4s;
+text-transform: uppercase;
 }
 
 .columnTalents {
