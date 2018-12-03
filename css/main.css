@@ -367,6 +367,7 @@ clear: both;
 
   video{
     width:unset !important;
+    margin-left: -445px;
   }
 
   .navbar-header{
