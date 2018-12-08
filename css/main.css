@@ -104,7 +104,7 @@ footer{
   background-size: cover;
   position: relative;
   height: 450px;
-  border-bottom: 5px solid white;
+  border-bottom: 1px solid black;
 }
 
 .newsHero {
@@ -209,7 +209,7 @@ footer{
   margin-top: 0px;
   width: 100%;
   height:auto;
-  background-color: white;
+  background-color: black;
   border:1px solid transparent;
   overflow: hidden;
 }
@@ -302,7 +302,7 @@ text-transform: uppercase;
 }
 
 .columnTalents {
-  border: 5px solid white;
+  border: 0px solid transparent;
   cursor: pointer;
   display: block;
   height: 100%;
