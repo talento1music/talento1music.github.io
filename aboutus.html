@@ -29,20 +29,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="/"><img id="siteLogo" src="img/talentoLogo.jpg" style="width:50px"></a>
+      <a class="navbar-brand visible-xs" href="/"><img id="siteLogo" src="img/talentoLogo.jpg" style="width:50px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul id="navMenuCenter" class="nav navbar-nav" style="width:885px;float:unset;margin:auto">
         <li><a href="/"> <span class="englishVersion">HOME</span> <span class="spanishVersion">INICIO</span> </a></li>
         <li><a href="/talent.html"> <span class="englishVersion">TALENT ROSTER</span> <span class="spanishVersion">NUESTROS TALENTOS</span> </a></li>
+        <li class="hidden-xs"><a class="navbar-brand" href="/"><img id="siteLogo" src="img/talentoLogo.jpg" style="width:70px;margin-top:-25px"></a></li>
         <li><a href="/aboutus.html"> <span class="englishVersion">ABOUT US</span> <span class="spanishVersion"> QUIENES SOMOS </span> </a></li>
         <li><a href="/contactus.html"> <span class="englishVersion">CONTACT US</span> <span class="spanishVersion"> CONTACTANOS </span> </a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden" ><a href="tel:+1-213-408-9199"><span class="glyphicon glyphicon-earphone"></span> 661.123.4567 </a></li>
+      <ul id="translateButtonDiv" class="nav navbar-nav navbar-right" style="margin-top:-70px">
         <li class="liTranslateBtns"> 
-          <button type="button" style="background-color:black;color:white" class="btn spanishBtn">Español</button> 
-          <button type="button" style="background-color:black;color:white" class="btn englishBtn">English</button> 
+          <button type="button" style="background-color:black;color:white" class="btn spanishBtn" onclick="getElementById('navMenuCenter').style.width = '1035px';">Español</button> 
+          <button type="button" style="background-color:black;color:white" class="btn englishBtn" onclick="getElementById('navMenuCenter').style.width = '885px';">English</button> 
         </li>
       </ul>
     </div>
