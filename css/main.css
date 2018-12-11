@@ -417,4 +417,12 @@ clear: both;
     padding:0px 20px 0px 20px;
   }
 
+  #navMenuCenter{
+    width:unset !important;
+  }
+
+  #translateButtonDiv{
+    margin-top:unset !important;
+  }
+
 }
