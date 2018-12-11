@@ -425,4 +425,9 @@ clear: both;
     margin-top:unset !important;
   }
 
+  .overlay_text_hero{
+    height: 700px;
+    top: 65px;
+  }
+
 }
