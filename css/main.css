@@ -431,3 +431,10 @@ clear: both;
   }
 
 }
+
+
+@media only screen and (min-width: 2000px) {
+  .overlay_text_hero{
+  top: 45%;
+  }
+}
