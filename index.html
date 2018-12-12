@@ -118,9 +118,8 @@
 </div>
 
 <script>
-myURL = location.href.toLowerCase();
-hasWWW = myURL.indexOf("http://") !== -1;
-if(hasWWW === false){
+var protocol = location.protocol;
+if(protocol === "https:"){
   window.location = "http://www.talento1music.com/";
 }
 </script>
