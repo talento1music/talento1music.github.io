@@ -370,7 +370,8 @@ clear: both;
 
 @media only screen and (max-width: 765px) {
   #siteLogo{
-    width:35px !important;
+    margin-left: 5px;
+    width: 35px !important;
   }
 
   .column{
@@ -419,6 +420,7 @@ clear: both;
 
   #navMenuCenter{
     width:unset !important;
+    padding-left: 0px;
   }
 
   #translateButtonDiv{
@@ -429,6 +431,7 @@ clear: both;
     height: 700px;
     top: 350px;
   }
+
 
 }
 
