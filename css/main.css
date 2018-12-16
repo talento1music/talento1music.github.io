@@ -5,6 +5,10 @@ body, html {
   overflow-x:hidden;
 }
 
+#navMenuCenter{
+  padding-left:100px;
+}
+
 #siteLogo{
   border:1px solid white !important;
 }
@@ -260,7 +264,7 @@ footer{
 
 .overlay_text_hero{
   background: rgba(0,0,0,0.5);
-  height: 300px;
+  height: 175px;
   position: absolute;
   top: 60%;
   right: 0;
@@ -272,7 +276,7 @@ footer{
   text-align: center;
   color: white;
   font-family: "Work Sans",sans-serif;
-  padding: 0px 20px 0px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .talentPageBanner{
@@ -343,7 +347,7 @@ clear: both;
 }
 
 #newsBtn{
-  margin-top:50px;
+  margin-top:30px;
   background-color: transparent;
   width: 130px;
   padding: 9px;
@@ -431,7 +435,7 @@ clear: both;
 
   .overlay_text_hero{
     height: 700px;
-    top: 380px;
+    top: 350px;
   }
 
 }
