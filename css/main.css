@@ -432,6 +432,10 @@ clear: both;
     top: 350px;
   }
 
+  .newsTitle{
+    height: auto !important;
+  }
+
 
 }
 
